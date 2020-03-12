@@ -1,0 +1,53 @@
+extends base
+
+block content 
+  main.main
+    .user-view
+        
+
+      .user-view__content(data-resortid=`${resort.slug}`)
+        .user-view__form-container
+          h2.heading-secondary.ma-bt-md= `Edit ${resort.name}`
+
+          form.form.form-edit-resort
+            .form__group
+              label.form__label(for='name') Name
+              input#name.form__input(type='text', value=`${resort.name}`, required name='name')
+            .form__group.ma-bt-md
+              label.form__label(for='summary') Summary
+              textarea#summary.form__input(rows='2' required name='summary')= `${resort.summary}`
+            .form__group.ma-bt-md
+              label.form__label(for='description') Description
+              textarea#description.form__input(rows='5' required name='description')= `${resort.description}`
+            .form__group.ma-bt-md
+              label.form__label(for='price') Price
+              input#price.form__input(type='text', value=`${resort.price.join(' ')}`, required name='price')
+            .form__group.ma-bt-md
+              label.form__label(for='operation') Operation Hours
+              input#operation.form__input(type='text', value=`${resort.operationHours.join(', ')}`, required name='operationHours')
+            .form__group.ma-bt-md
+              label.form__label(for='coordinates') Location Coordinates
+              input#coordinates.form__input(type='text', value=`${resort.location[0].coordinates.join(' ')}`, required name='coordinates')
+            .form__group.ma-bt-md
+              label.form__label(for='address') Address
+              input#address.form__input(type='text', value=`${resort.address}`, required name='address')
+            .form__group.ma-bt-md
+              label.form__label(for='contact') Contact Numbers
+              input#contact.form__input(type='text', value=`${resort.contactNumbers.join(', ')}`, required name='contactNumbers')
+            .form__group.ma-bt-md
+              label.form__label(for='email') Email
+              input#email.form__input(type='text', value=`${resort.email}`, required name='email')
+            .form__group.ma-bt-md
+              label.form__label(for='socialMedia') Social Media
+              input#socialMedia.form__input(type='text', value=`${resort.socialMedia}`, required name='socialMedia')
+            .form__group.ma-bt-md
+              label.form__label(for='website') Website
+              input#website.form__input(type='text', value=`${resort.website}`, required name='website')
+            
+            .form__group.form__photo-upload
+              input.form__upload(type='file' accept='image/*' id='photo' name='photo' multiple)
+              label(for='photo') Choose new photo
+
+            .form__group.right
+              button.btn.btn--small.btn--green Save settings  
+

@@ -1,0 +1,144 @@
+extends base
+
+block append head
+  script(src='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.js')  
+  link(rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css')
+
+
+block content
+  section.section-header
+    .header__hero
+      img.header__hero-img(src=`/img/resorts/${resort.imageCover}` alt=`${resort.name} cover`)
+
+    .heading-box
+      h1.heading-primary
+        span= resort.name
+      
+      .heading-box__group
+        .heading-box__detail
+          svg.heading-box__icon
+            use(xlink:href='/img/icons.svg#icon-map-pin')
+          - const locArr = resort.address.split(',');
+          - const location = `${locArr[locArr.length - 2]}, ${locArr[locArr.length - 1]}`
+          span.heading-box__text= location
+
+  .row
+    .col-12.col-lg-6
+      .overview-box.my-5
+        div
+          .overview-box__group
+            h2.heading-secondary.ma-bt-lg Quick facts
+            .overview-box__detail
+              svg.overview-box__icon
+                use(xlink:href='/img/icons.svg#icon-calendar')
+              span.overview-box__label Opens
+              span.overview-box__text= resort.daysOfOperation
+            .overview-box__detail
+              svg.overview-box__icon
+                use(xlink:href='/img/icons.svg#icon-home')
+              span.overview-box__label Address
+              span.overview-box__text= resort.address
+            .overview-box__detail
+              svg.overview-box__icon
+                use(xlink:href='/img/icons.svg#icon-home')
+              span.overview-box__label Email
+              span= resort.email
+            .overview-box__detail
+              svg.overview-box__icon
+                use(xlink:href='/img/icons.svg#icon-smartphone')
+              span.overview-box__label Contact Numbers
+              #wrapper
+                span.overview-box__text.card__icon.resLink Click / Hover me...
+                - const contacts = resort.contactNumbers.join(' ');
+                span.text= contacts
+            .overview-box__detail
+              svg.overview-box__icon
+                use(xlink:href='/img/icons.svg#icon-facebook')
+              span.overview-box__label Social Media
+              a.overview-box__label.resLink(href=`${resort.socialMedia}` target='_blank') Go to Facebook Page
+            .overview-box__detail
+              svg.overview-box__icon
+                use(xlink:href='/img/icons.svg#icon-external-link')
+              if resort.website
+                span.overview-box__label Website
+                a.overview-box__label.resLink(href=`http://${resort.website}` target='_blank') Go to website
+              else 
+                span.overview-box__label Website
+                a.overview-box__label N/A
+
+          
+          .overview-box__group
+            h2.heading-secondary.ma-bt-lg Admission &amp; Fees
+            
+            - const isThree = resort.operationHours.length === 3 ;
+            table
+              thead
+                th Monday to Sunday
+                th Operation Hours
+                th Adult Price
+                th Kids/Senior Price
+              tbody
+              if isThree
+                tr
+                  td Day Swimming
+                  td= resort.operationHours[0]
+                  td= `Php ${resort.price[0]}.00`
+                  td= `Php ${resort.price[1]}.00`
+                   
+                tr
+                  td Night Swimming
+                  td= resort.operationHours[1]
+                  td= `Php ${resort.price[2]}.00`
+                  td= `Php ${resort.price[3]}.00`
+                tr
+                  - const isWholeDay = resort.operationHours[2].split('-')[1].includes('P.M');
+                  if isWholeDay
+                    td Wholeday Swimming  
+                    td= resort.operationHours[2]
+                    td= `Php ${resort.price[4]}.00`
+                    td= `Php ${resort.price[5]}.00`
+                  else 
+                    td Overnight Swimming  
+                    td= resort.operationHours[2]
+                    td= `Php ${resort.price[4]}.00`
+                    td= `Php ${resort.price[5]}.00`
+
+              else
+                tr
+                  td Day Swimming
+                  td= resort.operationHours[0]
+                  td= `Php ${resort.price[0]}.00`
+                  td= `Php ${resort.price[1]}.00`
+                tr
+                  td Night Swimming
+                  td= resort.operationHours[1]
+                  td= `Php ${resort.price[2]}.00`
+                  td= `Php ${resort.price[3]}.00`
+
+    .col-12.col-lg-6
+      .description-box
+        br
+        h2.heading-secondary.ma-bt-lg= `About ${resort.name}`
+        - const desArr = resort.description.split('\n');
+        each d in desArr
+          p.description__text= d
+  
+  section.section-pictures
+    each image, i in resort.images
+      .picture-box
+        img.picture-box__img(src=`/img/resorts/${image}` alt=`${resort.name} ${i+1}` class=`picture-box__img--${i+1}`)
+  
+  section.section-map
+    #map(data-location=`${JSON.stringify(resort.location)}`)
+
+  section.section-reviews
+  
+
+                  
+
+
+
+
+
+
+

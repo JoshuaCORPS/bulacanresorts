@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,300i,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="public/img/bulacan-nav.png"
+    />
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-col fixed-top border">
+      <div class="container">
+        <a class="navbar-brand header__logo" href="#">
+          <img src="/public/img/bulacan-nav.png" alt="" />
+          <span>Bulacan Resorts</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <a href="#" class="nav__el">Log in</a>
+            <a href="#" class="nav__el">Sign up</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <section class="section-header">
+      <div class="header__hero">
+        <img
+          src="public/img/resorts/amana-image-cover.jpg"
+          alt=""
+          class="header__hero-img"
+        />
+      </div>
+
+      <div class="heading-box">
+        <h1 class="heading-primary">
+          <span
+            >The Park <br />
+            Camper Tour</span
+          >
+        </h1>
+        <div class="heading-box__group">
+          <div class="heading-box__detail">
+            <svg class="heading-box__icon">
+              <use
+                style="color: green;"
+                xlink:href="public/img/icons.svg#icon-map-pin"
+              ></use>
+            </svg>
+            <span class="heading-box__text">Las Vegas, USA</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div class="overview-box my-5">
+          <div>
+            <div class="overview-box__group">
+              <h2 class="heading-secondary ma-bt-lg">Quick facts</h2>
+              <div class="overview-box__detail">
+                <svg class="overview-box__icon">
+                  <use xlink:href="img/icons.svg#icon-calendar"></use>
+                </svg>
+                <span class="overview-box__label">Opens</span>
+                <span class="overview-box__text">Monday to Sunday</span>
+              </div>
+              <div class="overview-box__detail">
+                <svg class="overview-box__icon">
+                  <use xlink:href="img/icons.svg#icon-trending-up"></use>
+                </svg>
+                <span class="overview-box__label">Address</span>
+                <span class="overview-box__text"
+                  >777 Libo Street, San Nicolas, Bulakan, Bulacan</span
+                >
+              </div>
+              <div class="overview-box__detail">
+                <svg class="overview-box__icon">
+                  <use xlink:href="img/icons.svg#icon-user"></use>
+                </svg>
+                <span class="overview-box__label">Contact Numbers</span>
+
+                <div id="wrapper">
+                  <svg class="heading-box__icon overview-box__text card__icon">
+                    <use
+                      xlink:href="public/img/icons.svg#icon-smartphone"
+                    ></use>
+                  </svg>
+                  <span class="text"
+                    >0939-123-1213 0939-123-1213 0939-123-1213</span
+                  >
+                </div>
+              </div>
+
+              <div class="overview-box__detail">
+                <svg class="overview-box__icon">
+                  <use xlink:href="img/icons.svg#icon-star"></use>
+                </svg>
+                <span class="overview-box__label">Social Media</span>
+                <a
+                  href="https://www.facebook.com/klirwaterparkresort/"
+                  target="_blank"
+                >
+                  <svg class="heading-box__icon overview-box__text">
+                    <use
+                      style="color: #4267B2;"
+                      xlink:href="public/img/icons.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="overview-box__group">
+              <h2 class="heading-secondary ma-bt-lg">Admission &amp; Fees</h2>
+
+              <table>
+                <thead>
+                  <th>Monday to Sunday</th>
+                  <th>Operation Hours</th>
+                  <th>Price</th>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>Day Swimming</td>
+                    <td>8:00 A.M to 5:00 PM</td>
+                    <td>250.00</td>
+                  </tr>
+                  <tr>
+                    <td>Night/Overnight Swimming</td>
+                    <td>8:00 A.M to 5:00 PM</td>
+                    <td>250.00</td>
+                  </tr>
+                  <tr>
+                    <td>Night/Overnight Swimming</td>
+                    <td>8:00 A.M to 5:00 PM</td>
+                    <td>250.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="description-box">
+          <br />
+          <h2 class="heading-secondary ma-bt-lg">About Amana Waterpark</h2>
+          <p class="description__text">
+            Aside from the rice field scenery that surrounds the ranch inspired
+            resort, Coolwaves Ranch and Waterpark Resort is well known because
+            of its thrilling wave pool, and raging river, which is said by as
+            the first installed artificial river in the Philippines.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="section-pictures">
+      <div class="picture-box">
+        <img
+          class="picture-box__img picture-box__img--1"
+          src="public/img/resorts/amana-1-image.jpg"
+          alt="The Park Camper Tour 1"
+        />
+      </div>
+      <div class="picture-box">
+        <img
+          class="picture-box__img picture-box__img--1"
+          src="public/img/resorts/amana-2-image.jpg"
+          alt="The Park Camper Tour 1"
+        />
+      </div>
+      <div class="picture-box">
+        <img
+          class="picture-box__img picture-box__img--1"
+          src="public/img/resorts/amana-3-image.jpg"
+          alt="The Park Camper Tour 1"
+        />
+      </div>
+    </section>
+
+    <section class="section-map">
+      <div id="map"></div>
+      <script>
+        mapboxgl.accessToken =
+          'pk.eyJ1IjoiY29ycHMyNDMzIiwiYSI6ImNrNzJrYjdxdTAyemQzZ3FvdzQwb3ZmaWoifQ.mHF0PFYgnJAhDHRuUpPh4A';
+
+        const geojson = {
+          type: 'FeatureCollection',
+          features: [
+            {
+              type: 'Feature',
+              geometry: {
+                type: 'Point',
+                coordinates: [120.798225, 14.896755]
+              },
+              properties: {
+                description: 'Zion Canyon National Park'
+              }
+            }
+          ]
+        };
+
+        const map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/corps2433/ck7hasrw30xhe1ilvvzw0r891',
+          center: [120.798225, 14.896755],
+          zoom: 15
+        });
+
+        const bounds = new mapboxgl.LngLatBounds();
+
+        geojson.features.forEach(marker => {
+          var el = document.createElement('div');
+          el.className = 'marker';
+
+          new mapboxgl.Marker({
+            element: el,
+            anchor: 'bottom'
+          })
+            .setLngLat(marker.geometry.coordinates)
+            .addTo(map);
+
+          new mapboxgl.Popup({
+            offset: 30,
+            closeOnClick: false
+          })
+            .setLngLat(marker.geometry.coordinates)
+            .setHTML('<p>' + marker.properties.description + '</p>')
+            .addTo(map);
+
+          bounds.extend(marker.geometry.coordinates);
+        });
+
+        map.fitBounds(bounds, {
+          padding: {
+            top: 500,
+            bottom: 500,
+            left: 50,
+            right: 50
+          }
+        });
+      </script>
+    </section>
+
+    <section class="section-reviews"></section>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer__logo">
+        <img src="/public/img/bulacan-nav.png" alt="" />
+        <span>Bulacan Resorts</span>
+      </div>
+      <ul class="footer__nav">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+      <p class="footer__copyright">
+        &copy; Bulacan Resorts. All rights reserved.
+      </p>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

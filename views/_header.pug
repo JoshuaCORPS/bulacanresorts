@@ -1,0 +1,18 @@
+nav.navbar.navbar-expand-lg.navbar-light.nav-col.fixed-top.border
+  .container
+    a.navbar-brand.header__logo(href='/')
+      img(src='/img/bulacan-nav.png' alt='Bulacan Resorts Logo')
+      span Bulacan Resorts
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    
+    .collapse.navbar-collapse#navbarSupportedContent
+      ul.navbar-nav.ml-auto
+        if user
+          a.nav__el(href='/me')
+            img.nav__user-img(src=`/img/users/${user.photo}` alt=`${user.name}`)
+            span= user.name.split(' ')[0]
+          a.nav__el.nav__el--logout Log out
+        else
+          a.nav__el(href='/login') Log in
+          a.nav__el(href='/signup') Sign up

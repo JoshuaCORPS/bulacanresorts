@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Klir Waterpark Resort",
+    "summary": "Develop a getaway which shall make you and your families visit memorable.",
+    "description": "Klir Waterpark Resort is the latest Waterpark Resort located in Kabilang Bakood, Guiguinto Bulacan. Just a 30 minute drive from Manila. You and your family can enjoy the latest technology of wave pool with the best ambiance and amenities a resort can offer.\nKlir waterpark is a 3 hectares land surrounded with a secured concrete fence and large secured parking areas for your vehicle. It has 4 different kinds of Pools with its owned unique functions and designs. Klir also made the biggest wave pool in Luzon with the wave pool to be estimated at a size of 3,500 square meters. The resort has different types of Cottages and Functions Area Open and Air-Conditioned that can accommodate different numbers of guest.\nKlir Waterpark Resort owned and developed by KLIR Construkt, a construction company that decided to develop a parcel of land and turn it into one of the most advance Waterpark Resort in the Philippines. The design and concept of the resort came from the different creative minds of engineers and family members of KLIR Construkt. The 'NATURE GET AWAY' of Klir is perfect for those people who want to escape the busy areas of Metro and take a peak of worry free haven to unwind and relax without the stress of traveling too far.\nThe Resort is an ECO friendly resort which prohibited smoking and drinking of alcoholic beverages inside the resort. Coming to Klir Waterpark Resort, a hotel surrounding the resort equipped with best comforts for your stay.",
+    "imageCover": "klir-image-cover.jpg",
+    "price": [250, 200, 250, 200, 350, 250],
+    "operationHours": [
+      "8:00 A.M - 4:00 P.M",
+      "3:00 P.M - 10:00 P.M",
+      "8:00 A.M - 10:00 P.M"
+    ],
+    "daysOfOperation": "Monday to Sunday",
+    "location": [
+      {
+        "_id": "5c88fa8cf4afda39709c2959",
+        "type": "Point",
+        "coordinates": [120.863091, 14.866627],
+        "description": "Klir Waterpark Resort"
+      }
+    ],
+    "address": "Near Sta. Rita Exit, Kabilang Bakood, Guiguinto, Bulacan",
+    "images": ["klir-1-image.jpg", "klir-2-image.jpg", "klir-3-image.jpg"],
+    "website": "klirwaterparkresort.com.ph",
+    "email": "admin@klirwaterparkresort.com.ph",
+    "contactNumbers": [
+      "0925-500-5547",
+      "(044) 892-0227",
+      "(044) 760-1075",
+      "(02) 404-4145"
+    ],
+    "socialMedia": "https://www.facebook.com/klirwaterparkresort/"
+  },
+  {
+    "name": "Coolwaves Ranch and Waterpark Resort",
+    "summary": "Where Waves of Fun Never Stop..",
+    "description": "Aside from the rice field scenery that surrounds the ranch inspired resort, Coolwaves Ranch and Waterpark Resort is well known because of its thrilling wave pool, and raging river, which is said by as the first installed artificial river in the Philippines.\nNo need to travel far to experience thrilling activities like giant slide, wave pool, raging river and the famous Helmet Diving that was first introduced in Boracay.\nGreat escapades, near Manila, good accommodations and amenities but less expense. Perfect for weekday and weekend getaways. Ideal for families, friends and even for corporate events like teambuilding and others.\nA very comfortable staycation with exciting amenities and activities, perfect for someone who wants to relax, unwind and have fun. Recommended for people who loves to travel a lot, for families or group of people who are looking for a place to bond, and for corporate who wants to celebrate and held events outside of their company’s premises.\nIt’s a worry-free vacation! Budget wise, travel wise, location wise, plus relaxing ambiance, great scenery, cool adventure pack brought by wave pool and raging river that can enjoy by young and adults people who visited the resorts.",
+    "imageCover": "coolwaves-image-cover.jpg",
+    "price": [180, 180, 210, 210, 250, 250],
+    "operationHours": [
+      "8:00 A.M - 5:00 P.M",
+      "6:00 P.M - 2:00 P.M",
+      "6:00 P.M - 7:00 A.M"
+    ],
+    "daysOfOperation": "Monday to Sunday",
+    "location": [
+      {
+        "_id": "5c88fa8cf4afda39709c2958",
+        "type": "Point",
+        "coordinates": [120.863729, 14.801876],
+        "description": "Coolwaves Ranch and Waterpark Resort"
+      }
+    ],
+    "address": "777 Libo Street, San Nicolas, Bulakan, Bulacan",
+    "images": [
+      "coolwaves-1-image.jpg",
+      "coolwaves-2-image.jpg",
+      "coolwaves-3-image.jpg"
+    ],
+    "website": "coolwavesresort.com",
+    "email": "N/A",
+    "contactNumbers": [
+      "0943-568-1362",
+      "0905-397-6300",
+      "(044) 792-2870",
+      "(02) 404-4875"
+    ],
+    "socialMedia": "https://www.facebook.com/Coolwaves-Ranch-Water-Park-Resort-838482886177359/"
+  },
+  {
+    "name": "The Grass Garden Resort and Villas Inc.",
+    "summary": "Feel that you are one with the nature...",
+    "description": "Come and experience the pristine waters, beautifully landscaped environment. A place for relaxation while enjoying the green ambience of nature. It is ideal for outings, functions and recreational activities. This place is perfect for everyone.",
+    "imageCover": "grassgarden-image-cover.jpg",
+    "price": [200, 150, 220, 170, 220, 170],
+    "operationHours": [
+      "8:00 A.M - 5:00 P.M",
+      "6:00 P.M - 2:00 P.M",
+      "6:00 P.M - 7:00 A.M"
+    ],
+    "daysOfOperation": "Monday to Sunday",
+    "location": [
+      {
+        "_id": "5c88fa8cf4afda39709c2957",
+        "type": "Point",
+        "coordinates": [120.914586, 14.948807],
+        "description": "The Grass Garden Resort and Villas Inc."
+      }
+    ],
+    "address": "Sipat, Plaridel, Bulacan",
+    "images": [
+      "grassgarden-1-image.jpg",
+      "grassgarden-2-image.jpg",
+      "grassgarden-3-image.jpg"
+    ],
+    "website": "grassgardenresort.com",
+    "email": "grassgardenph@yahoo.com",
+    "contactNumbers": ["0915-193-1489", "(044) 795-0124"],
+    "socialMedia": "https://www.facebook.com/thegrassgardenresort/"
+  },
+  {
+    "name": "Amana Waterpark",
+    "summary": "Adjudged by Google as the 2nd Fastest-rising summer destination of the Philippines.",
+    "description": "As the newest summer destination, anybody can enjoy the thrill and excitement it can offer, which includes a 3,500 sq meter wave-pool that produces the biggest wave (Tsunami wave). Amana Waterpark considered having the biggest wave pool in the Philippines. It offers 13 different magnificent gigantic kinds of wave. We have over 100 different life-size characters scattered all over the resort that children will immensely enjoy, for more exciting and breathtaking adventure, swim higher with our 300 meter  Zipline and extreme 4D Maxrider. In addition, the resort also offers  picnic grove, souvenir shop and breezy inspired cottages made of local materials.\nThe concept for AMANA was first envisioned when the sister-resort, Tampisaw Beach Resort in Iba, Zambales was opened on March 28, 2008. A much bigger resort with a more wide-ranging clientele was conceived which will cater to the customer's total enjoyment! Best amenities, world-class services with distinctly Filipino warmth of hospitality, comfort and convenience for a reasonable cost giving value for one's hard-earned money are just one of the many driving force that molded AMANA Water Park to what is today.\nImmediately after the acquisition of 8.4 hectares rice field property on June 23, 2008- development was then undertaken for what would be AMANA Water Park. To get the best ideas for the theme of the upcoming water park, Mr. Roque went to about 50 different resorts in Luzon to do ocular and get the best ideas that he could incorporate for his project. On August of the same year groundbreaking commenced and nine (9) months after, the vision was realized in the opening of the AMANA Water Park on March 28, 2009. To date, AMANA has property area of 14 hectares and been able to cater to its maximum capacity of customer at an unbelievable 13,000 visitors in a given time- proving that in such short a time the Water Park had reached its maximum potential. For this reason we are raising the bar to the higher level of excellence and envision of making AMANA Water Park to become the best resort in Luzon be it even nationally and internationally.",
+    "imageCover": "amana-image-cover.jpg",
+    "price": [250, 200, 210, 150, 210, 150],
+    "operationHours": [
+      "8:00 A.M - 5:00 P.M",
+      "6:00 P.M - 12:00 MN",
+      "6:00 P.M - 6:00 A.M"
+    ],
+    "daysOfOperation": "Monday to Sunday",
+    "location": [
+      {
+        "_id": "5c88fa8cf4afda39709c2956",
+        "type": "Point",
+        "coordinates": [120.950562, 14.892016],
+        "description": "Amana Waterpark"
+      }
+    ],
+    "address": "Santisima St., Bagong Barrio, Pandi, Bulacan",
+    "images": ["amana-1-image.jpg", "amana-2-image.jpg", "amana-3-image.jpg"],
+    "website": "amanawaterpark.ph",
+    "email": "amanawaterpark@yahoo.com",
+    "contactNumbers": [
+      "0939-923-3089",
+      "0917-886-6220",
+      "(044) 812-2160",
+      "8703-7687"
+    ],
+    "socialMedia": "https://www.facebook.com/amanawaterparkph/"
+  },
+  {
+    "name": "Dream Wave Resort",
+    "summary": "Sweet haven for all ages.",
+    "description": "DREAM WAVE RESORT is a sweet haven for all ages. It is the ideal place for relaxation and recreation. The resort offers various amenities to suit your dream vacation needs. Situated in a peaceful picturesque land in Brgy. Turo, Bocaue Bulacan.\nDream Wave Resort is just a few minutes stroll from Balintawak exit giving you the opportunity to have the ultimate delightful experience within your reach. The main resort attraction is the Wave Pool, where the young and old can experience simulated waves.\nDream Wave Resort also offers a variety of accommodations to chose from. Have yourself a treat at our Resto Bar and enjoy fine dining at its best. Have a splash, enjoy and make your holiday an occasion to remember.",
+    "imageCover": "dream-image-cover.jpg",
+    "price": [180, 150, 250, 180],
+    "operationHours": ["8:00 A.M - 5:00 P.M", "8:00 A.M - 10:00 P.M"],
+    "daysOfOperation": "Monday to Sunday",
+    "location": [
+      {
+        "_id": "5c88fa8cf4afda39709c2955",
+        "type": "Point",
+        "coordinates": [120.933018, 14.798371],
+        "description": "Dream Wave Resort"
+      }
+    ],
+    "address": "Bocaue, Bulacan",
+    "images": ["dream-1-image.jpg", "dream-2-image.jpg", "dream-3-image.jpg"],
+    "website": "dreamwaveresort.ph",
+    "email": "dreamwave_resort@ymail.com",
+    "contactNumbers": ["0932-843-5861", "0927-625-6623", "(044) 720-5994"],
+    "socialMedia": "https://www.facebook.com/dreamwaveresort/"
+  },
+  {
+    "name": "Grotto Vista Resort",
+    "summary": "Beckons you to a whole new world.",
+    "description": "Grotto Vista Resort beckons you to a whole new world. Where you can have fun and sun by day, simple relaxation or an evening romance. At Grotto Vista Resort, you get away from the hustle of the metropolis. Without going any further than 15 minutes north of Metro Manila! Just a short ride up the winding road of San Jose del Monte, Bulacan. And whether you’re two or three hundred and two… with family or with the whole company… on a simple outing, a live-in seminar, a ballroom dance or a garden party… Grotto Vista Resort has a wide range of facilities to make you relax and unwind in your own style.",
+    "imageCover": "grotto-image-cover.jpg",
+    "price": [200, 150, 210, 160],
+    "operationHours": ["8:00 A.M - 6:00 P.M", "6:00 P.M - 11:00 P.M"],
+    "daysOfOperation": "Monday to Sunday",
+    "location": [
+      {
+        "_id": "5c88fa8cf4afda39709c2954",
+        "type": "Point",
+        "coordinates": [121.061406, 14.791222],
+        "description": "Grotto Vista Resort"
+      }
+    ],
+    "address": "Graceville, San Jose del Monte, Bulacan",
+    "images": [
+      "grotto-1-image.jpg",
+      "grotto-2-image.jpg",
+      "grotto-3-image.jpg"
+    ],
+    "website": "grottovistaresort.com",
+    "email": "grotto.vista@yahoo.com",
+    "contactNumbers": [
+      "0922-414-4447",
+      "0917-839-0327",
+      "(044) 815-0943",
+      "(044) 308-3172"
+    ],
+    "socialMedia": "https://www.facebook.com/GrottoVistaResort/"
+  },
+  {
+    "name": "8 Waves Waterpark & Hotel",
+    "summary": "Take the plunge this 2020 and create unforgettable memories with the whole family and friends.",
+    "description": "8 Waves Waterpark and Resort started with a dream of the owners way back in 1998 to offer to the community a place where the family could get together more often while having leisure and fun. The concept of a leisure park that would be very affordable to all people of different walks of life which its facilities would be at par with the international standards of providing recreation to the family.\nIndeed from the very beginning, the management has been very optimistic on providing every guest an 'experience' - such experience to be noted as 'unique' in the sense that he/she would feel not only satisfied but as well as delighted everytime he or she leaves the place.\nWith this in mind, the theme under the sea (water world) finally became the final concept to which gave the park its present image. The biggest attraction, the waves at the 2,788.52 sq. m. pool has become the centerpiece of the project. From the Noah’s Arc at the kiddie pool, to the Neptune’s Diner, every guest is promised an unforgettable experience.\nFrom the imaginative minds of eight (8) managers / co-owners of the Corporation - The young, talented, dynamic descendants of the owners, and from the regular tedious meetings of board members for almost a year and a half has finally materialized, 8 Waves Waterpark was conceived in July, 2000 in the province of Bulacan, in the town of San Rafael. Surely, every Bulakeño will be proud of 8 Waves Waterpark - the biggest wave pool attraction in the country today.",
+    "imageCover": "eightwaves-image-cover.jpg",
+    "price": [250, 200, 150, 100],
+    "operationHours": ["9:00 A.M - 5:00 P.M", "6:00 P.M - 11:00 P.M"],
+    "daysOfOperation": "Monday to Sunday",
+    "location": [
+      {
+        "_id": "5c88fa8cf4afda39709c2953",
+        "type": "Point",
+        "coordinates": [120.91727, 14.9775973],
+        "description": "8 Waves Waterpark & Hotel"
+      }
+    ],
+    "address": "DRT Highway, Ulingao, San Rafael, Bulacan",
+    "images": [
+      "eightwaves-1-image.jpg",
+      "eightwaves-2-image.jpg",
+      "eightwaves-3-image.jpg"
+    ],
+    "website": "8waveswaterpark.com",
+    "email": "N/A",
+    "contactNumbers": [
+      "0922-738-0942",
+      "0925-589-2837",
+      "(044) 766-5272",
+      "(02) 742-0063"
+    ],
+    "socialMedia": "https://www.facebook.com/8waveswaterpark/"
+  },
+  {
+    "name": "Lawiswis Kawayan Garden Resort & Spa",
+    "summary": "Treat your family and friends to a place that is clean, comfortable, intimate, quiet and enjoyable.",
+    "description": "The idea of Lawiswis Kawayan is to offer guests a laid back experience of easy relaxation. Simply unwind to our own intimate haven of peace. It’s nothing like the noise of the bustling city yet not so distant. Be at home with nature, bond with family and friends. Surprisingly a simple yet charming.\nLawiswis Kawayan Garden Resort & Spa was developed bit by bit with you, our valued guests in mind. And its blueprint is simplicity and relaxation. We value nature at its pristine beauty. The mere sound of birds, the scent of Ylang-ylang flowers during afternoons, the sound of crickets or the sight of fireflies that comes out as a surprise are delightful experiences for us. We imagine our guests enjoying the same…such simple pleasures that don’t often come handy.\nFind peace in the mere sight of greeneries around you. Find rest in the coolness of the air. Reminisce childhood as you sit in the afternoon shade of mango trees. With only soft music around you and the laughter of friends and loved ones… a stay in Lawiswis Kawayan will surely be cherished. We offer you a day not to be idle, but a day to be silent enough to listen to the voices of nature. And for a moment, be reminded that the sky is indeed blue, the grass is indeed green and yes, stars still do twinkle…In other words, Lawiswis Kawayan gives you a moment to appreciate and value the simplicity of living.\nThe swimming pool is always inviting. We have our own version of a pool sala where you can lounge as you watch others swim and play. Rooms are simple and modest, and are kept clean and comfortable. Likewise, the Lawiswis Spa experience will surely complete your stay. You will find a native touch of nipa and bamboo everywhere. This ambience brings you back to the Filipino rural lifestyle yet the amenities we offer are modern and cozy. We are sure to welcome you back after your stay.\nWe have friendly local staffs always ready to attend to your needs yet allowing you to have the privacy that you deserve. With a limited number of guests to be accommodated in a day, the idea of Lawiswis Kawayan is to provide a hideaway for sweethearts, families, friends or associates who long for a quiet afternoon, a dip in the pool, a little taste of freedom for kids to romp and run while we spend time merely lounging around, reading a book, chatting and dreaming again…",
+    "imageCover": "lawiswis-image-cover.jpg",
+    "price": [375, 220, 475, 320],
+    "operationHours": ["8:00 A.M - 5:00 P.M", "5:00 P.M - 12:00 MN"],
+    "daysOfOperation": "Monday to Sunday",
+    "location": [
+      {
+        "_id": "5c88fa8cf4afda39709c2952",
+        "type": "Point",
+        "coordinates": [120.798225, 14.896755],
+        "description": "Lawiswis Kawayan Garden Resort & Spa"
+      }
+    ],
+    "address": "402 Brgy. Buguion, Calumpit, Bulacan",
+    "images": [
+      "lawiswis-1-image.jpg",
+      "lawiswis-2-image.jpg",
+      "lawiswis-3-image.jpg"
+    ],
+    "website": "lawiswiskawayanresort.com",
+    "email": "info@lawiswiskawayanresort.com",
+    "contactNumbers": [
+      "0917-811-2332",
+      "0922-861-2332",
+      "(044) 320-0117",
+      "(02) 542-3245"
+    ],
+    "socialMedia": "https://www.facebook.com/LawiswisKawayanResort/"
+  }
+]
