@@ -18,7 +18,7 @@ Built using: Node.js, Express, MongoDB.
 
 • Manage Resorts for Admin (Create/Update/Delete).
 
-• Manage Users for Admin (Create/Update/Delete).
+• Manage Users for Admin (Update/Delete).
 
 # Visit Bulacan Resorts
 
