@@ -4,6 +4,8 @@ Built using: Node.js, Express, MongoDB.
 
 # Features
 
+• Authentication and authorization
+
 • Simple search.
 
 • Log in and Sign up.
