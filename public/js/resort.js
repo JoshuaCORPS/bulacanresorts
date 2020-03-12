@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { showAlert } from './alerts';
 
 export const createResort = async (data, followUpData) => {
   try {
@@ -20,13 +21,13 @@ export const createResort = async (data, followUpData) => {
     });
 
     if (updateResort.data.status === 'Success') {
-      alert('Resort Created Successfully.');
+      showAlert('success', 'Resort Created Successfully.');
       window.setTimeout(() => {
         location.assign('/');
       }, 1500);
     }
   } catch (err) {
-    alert(err.response.data.message);
+    showAlert('error', err.response.data.message);
   }
 };
 
@@ -39,12 +40,12 @@ export const updateResort = async (data, slug) => {
     });
 
     if (updatedResort.data.status === 'Success') {
-      alert('Updating Resort Successful.');
+      showAlert('success', 'Updating Resort Successful.');
       window.setTimeout(() => {
         location.assign(`/resort/${slug}`);
       }, 1000);
     }
   } catch (err) {
-    alert(err.response.data.stack);
+    showAlert('error', err.response.data.stack);
   }
 };

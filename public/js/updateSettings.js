@@ -15,10 +15,10 @@ export const updateSettings = async (data, type) => {
     });
 
     if (updatedUser.data.status === 'Success') {
-      alert(`${type.toUpperCase()} updated successfully.`);
+      showAlert('success', `${type.toUpperCase()} updated successfully.`);
       location.reload(true);
     }
   } catch (err) {
-    alert(err.response.data.message);
+    showAlert('error', err.response.data.message);
   }
 };
