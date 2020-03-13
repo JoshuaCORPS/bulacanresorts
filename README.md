@@ -8,7 +8,11 @@ Built using: Node.js, Express, MongoDB.
 
 • Simple search.
 
+• Simple REST API.
+
 • Log in and Sign up.
+
+• Forgot password and reset password
 
 • Email sending for new users, and forgot password.
 
