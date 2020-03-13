@@ -46,6 +46,6 @@ export const updateResort = async (data, slug) => {
       }, 1000);
     }
   } catch (err) {
-    showAlert('error', err.response.data.stack);
+    showAlert('error', err.response.data.message);
   }
 };

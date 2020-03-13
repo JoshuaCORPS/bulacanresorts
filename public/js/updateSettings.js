@@ -15,7 +15,7 @@ export const updateSettings = async (data, type) => {
     });
 
     if (updatedUser.data.status === 'Success') {
-      showAlert('success', `${type.toUpperCase()} updated successfully.`);
+      showAlert('success', `${type.toUpperCase()} UPDATED SUCCESSFULLY.`);
       location.reload(true);
     }
   } catch (err) {
