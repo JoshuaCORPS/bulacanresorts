@@ -7,6 +7,7 @@ const cookieParser = require('cookie-parser');
 // Security Middelwares
 const hpp = require('hpp');
 const xss = require('xss-clean');
+const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const mongoSanitize = require('express-mongo-sanitize');
@@ -37,6 +38,12 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Global Middelwares
+// Implement CORS = simple requests(GET,POST)
+app.use(cors());
+
+// Implement CORS = simple requests(PUT,PATCH,DELETE)
+app.options('*', cors());
+
 app.use(helmet());
 
 if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
